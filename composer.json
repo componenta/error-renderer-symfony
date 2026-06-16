@@ -1,0 +1,22 @@
+{
+    "name": "componenta/error-renderer-symfony",
+    "description": "Symfony error renderer integration for Componenta error handling",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "componenta/error-handler": "^1.0",
+        "symfony/error-handler": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Componenta\\Error\\Renderer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Componenta\\Error\\Renderer\\Symfony\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
